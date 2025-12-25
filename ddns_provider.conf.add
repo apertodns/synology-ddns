@@ -1,0 +1,10 @@
+# ApertoDNS DDNS Provider for Synology DSM
+# Add this section to /etc/ddns_provider.conf
+
+[ApertoDNS - Token]
+    modulepath=/usr/syno/bin/ddns/apertodns.php
+    queryurl=https://api.apertodns.com/nic/update
+
+[ApertoDNS - Email]
+    modulepath=/usr/syno/bin/ddns/apertodns.php
+    queryurl=https://api.apertodns.com/nic/update
